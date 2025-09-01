@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier - TechStore</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo TechStore" width="50">
+            <h1>TechStore</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">🏠 Accueil</a></li>
+                <li><a href="produit-detail.html">🛒 Produits</a></li>
+                <li><a href="services.html">⚙️ Services</a></li>
+                <li><a href="a-propos.html">ℹ️ À propos</a></li>
+                <li><a href="contact.html">📞 Contact</a></li>
+            </ul>
+        </nav>
+        <div class="user-icon">
+            <span>👤</span>
+            <div class="user-menu">
+                <a href="#">📝 S'inscrire</a>
+                <a href="#">🔑 Se connecter</a>
+                <a href="#">👨‍💼 Profil</a>
+                <a href="panier.html" class="active">🛒 Panier</a>
+                <a href="#">🚪 Se déconnecter</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart">
+            <h2>🛒 Votre panier</h2>
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Produit</th>
+                        <th>Prix unitaire</th>
+                        <th>Quantité</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Montre Connectée X1</td>
+                        <td>149,90 €</td>
+                        <td>1</td>
+                        <td>149,90 €</td>
+                    </tr>
+                    <tr>
+                        <td>Casque Bluetooth Pro</td>
+                        <td>99,99 €</td>
+                        <td>2</td>
+                        <td>199,98 €</td>
+                    </tr>
+                    <tr>
+                        <td>Enceinte Portable SoundMax</td>
+                        <td>69,95 €</td>
+                        <td>1</td>
+                        <td>69,95 €</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="cart-summary">
+                <h3>🧾 Récapitulatif</h3>
+                <p>🛍️ Produits : 419,83 €</p>
+                <p>🚚 Livraison : 5,00 €</p>
+                <p>💡 TVA incluse</p>
+                <p><strong>💰 Total à payer : 424,83 €</strong></p>
+                <button class="btn">✅ Passer la commande</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 TechStore. Tous droits réservés.</p>
+        <ul>
+            <li><a href="a-propos.html">ℹ️ À propos</a></li>
+            <li><a href="contact.html">📞 Contact</a></li>
+            <li><a href="#">📄 Mentions légales</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
