@@ -525,13 +525,3 @@ main > section {
 .values li, .team li, .commitments li {
     line-height: 1.6;
 }
-
-/* Responsive */
-@media (max-width: 768px) {
-    .about {
-        padding: 0 1rem;
-    }
-    .about-section {
-        padding: 1.2rem;
-    }
-}
